@@ -1,0 +1,96 @@
+.form-control:focus {
+    color: white;
+    background-color: black;
+    border-color: black;
+    outline: 0;
+    box-shadow: none;
+}
+.form-control {
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    border-color: black;
+    margin-right: 10px;
+    margin-top:15px;
+    width:700px;
+}
+.nav-link {
+font-weight: 600;
+font-size: 16px;
+}
+.wrapper {
+    position: relative;
+    display: block;
+}
+.search {
+    position: absolute;
+    left: 15px;
+    top: 16px;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.8; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    opacity: 0.8;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    opacity: 0.8;
+}
+span#inputGroup-sizing-default {
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: black;
+    border-color: black;
+}
+.btn {
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.create-button{
+  background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+  border-color: #C91CC3 ;
+}
+
+.connect-button{
+    color: #DA18A3;
+    background-color: none;
+    border-color: #C81CC5;
+}
+.connect-button:hover{
+    background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+    border-color: #C91CC3 ;
+    color: white;
+}
+.navbar-container{
+    margin: 0px 50px 0px 50px;
+    border-bottom: 1px solid #313131;
+}
+.navbar-row-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .btn{
+      margin-top:10px;
+      width: 250px;
+  }
+  .form-control{
+    margin-right: 0px;
+    margin-top:  15px;
+  }
+  span#inputGroup-sizing-default {
+    margin-left: 0px;
+    margin-top:  15px;
+  }
+}
